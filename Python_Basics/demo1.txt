@@ -1,0 +1,2 @@
+this write mode overwrite the text
+my name is priyal jain

@@ -1,0 +1,152 @@
+# lang ->Dino 
+#Work on translate orally or into sign language the words of a person speaking a different language also known as Interpreter 
+#Interpreter: An interpreter translates code written in a high-level programming language into machine code line-by-line as the code runs. 
+
+Why use interpreter ??
+
+->this language is design for interpreter => which means it will not compile it execute the command. 
+->this save time has it execute the code line by line.
+
+
+
+
+Syntax
+-
+we write dino as 
+print: hello world
+# This is the way!! how you will execute it 
+# You will not req any other parantheses but you req {} curly bracets in order to execute any variable 
+w = wolrd
+print: hello {w} 
+> hello world >
+# Let say you have variable name 'a' => now you have to print//give it as a output form which will be in string form but it will not show output has inside singe quotation ''
+# There will be no use of single , double  quotaion 
+print: hello world !!
+
+# you will comment has '#t'for single line comment #tn where n is number of line. select code and enter "ctrl + " " for comment 
+#t2
+#print: hello
+#print: world
+
+# Data type :
+there will be two datatype 
+
+1.string 
+   - initially it will be string
+   - whenever you need to input bydefault the datatype will be string
+     
+2.number
+   - whene ever you need to insert number you have to insert it has a string
+   - suppose you insert '12' you will have manually change the datatype like' a =12, a = f(a)'
+     
+3.array
+    - the array will store the element which has same datatype.
+    - in order to append value in array you need to 'arr.add(a)'.
+    - to remove from arr you need to arr.remove(a).
+    - It will be similar to string.
+
+# string manipulation 
+In order to manipulate the string.
+let say a : hello world
+a.get(n,n)
+this will use for slicing => object.get(a,b)
+eg :
+x=:[1,2,4,5,6,7,8]
+x.get(1,3)=>[2,4,5]
+how it work:
+this will use for split => object.cut(a)
+eg :
+x : hello
+x.cut()=>['h','e','l','l','o']
+
+# manipulation of arr
+In order to manipulate the arr.
+let say you have a : [1,2,3,4]
+To add element.
+how it work :
+object.add(element)
+object.remove(element)
+object.addi(index)
+object.removei(index)
+
+# array manipulation 
+- arr.order()
+- arr.order(key = lambda)=> arr.object(key  = lambda) where lambda = str or num # lambda is a formula.
+- let say you have arr : ['q','r','y','w']
+- arr.order(key : str)
+- arr.order(key : num)
+- let say have arr : [[1,2,13],[5,4,3],[9,71,3]]
+- and you want to get'13'
+- arr.get([0][2])=> it will give 13 
+- to sort=>
+- arr.order(key:f'2')=>[[5,4,3],[9,71,3],[1,2,13]]
+
+
+# match :
+- It has one input
+- it contain two expression
+- match and case
+ =>
+day  : f'4'
+dino_is day,
+    vault 1,
+       print: monday
+    vault 2,
+       print: tuesday
+    vault 3,
+       print: wednesday
+    vault 4,
+       print: thursday
+    vault 5,
+       print: firday
+    vault 6,
+       print: saturday
+    vault 7,
+       print: sunday
+    d_vault ,
+       print: day is incorrect!!
+      
+
+# if else:
+ check_dino => if 
+ or_dino => else
+ 
+
+eg : 
+a = 20                 a : 20 
+a = int (a)               a : f(a)     # we use 'f' to change the datatype from string to number    
+if a>3,                check_dino a>3,
+    print('a>3')           print: a>3
+else,                  or_dino,
+    print('a<3')           print:  a<3
+
+=> you can use check_dino and or_dino as any other if else condition 
+# operator will be same as python 
+# function 
+Crichton hi ():        def hi():
+  print: hello           print('hello')
+# loops
+# for loops
+spielberg (0,1)     for i in range(0,1):
+a : 20             a = 20  
+a : int(a)         a= int(a)
+i:spielberg (a),      for i in range(a):
+    print:{i}            print(i)
+# while loop 
+spielberg(condition),     
+    print hi
+a = 1
+spielberg(check_dino a>3),
+    print hi=> this will run till a>3
+    a+:1
+1:spielberg,
+    print hi => this will run infinte time  
+# try except :
+run_dino,           try :
+   print:               print()
+catch_dino,         execpt :
+   print:               print()
+throw_dino,         raise Exception()
+    print:              
+finally_dino,       finally,            
+     print:             print()

@@ -1,0 +1,5 @@
+helloise                         an exception in Python using the raise
+hsfdushfi isadfjs id isadjf isal
+helloise an exception in Python using the raise 
+keyword followed by an instance of the exception 
+
